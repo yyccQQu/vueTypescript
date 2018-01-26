@@ -6,6 +6,7 @@
     <p>helloMsg: {{helloMsg}}</p>
     <p>computed msg: {{computedMsg}}</p>
     <button @click="greet">Greet</button>
+    <router-view></router-view>
   </div>
 </template>
 
